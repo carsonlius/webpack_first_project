@@ -6,13 +6,13 @@ module.exports = {
     },
     module: {
         rules: [
-            {
-                test: /\.css$/,
-                use: [
-                    {loader: 'style-loader'},
-                    {loader: 'css-loader'}
-                ]
-            },
+            // {
+            //     test: /\.css$/,
+            //     use: [
+            //         {loader: 'style-loader'},
+            //         {loader: 'css-loader'}
+            //     ]
+            // },
             { // 这样可以使用ES6的语法
                 test: /\.js$/,
                 use: [
